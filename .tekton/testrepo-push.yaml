@@ -27,7 +27,7 @@ spec:
   - name: git-url
     value: '{{repo_url}}'
   - name: output-image
-    value: quay.io/repository/my-konflux-component:{{revision}}
+    value: quay.io/nkononov/my-konflux-component:{{revision}}
   - name: path-context
     value: .
   - name: revision
